@@ -16,7 +16,7 @@ def Search_ping():
         if result == 0: # Si el puerto está activo
             print ("Puerto abierto!")
             print (f"Puerto: {port}")  
-            proxy = f'152.206.85.87:{port}'
+            proxy = f'181.225.253.188:2015'
             proxy_new = S5Crypto.encrypt(f'{proxy}')
             break
         else: # Si hay error hal escanear un puerto
